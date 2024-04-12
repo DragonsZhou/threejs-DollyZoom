@@ -1,8 +1,8 @@
 .DS_Store
 node_modules
 /dist
-src/example3/0.js
-src/example3/1.js
+# src/example3/0.js
+# src/example3/1.js
 
 # local env files
 .env.local
