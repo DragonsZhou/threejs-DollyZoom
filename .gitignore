@@ -23,8 +23,4 @@ pnpm-debug.log*
 
 
 # ing
-*.dev.js
-src/example3/0.js
-src/example3/1.js
-src/example3/libs/Ring.js
-src/libs
+src/test

@@ -6,25 +6,25 @@
 </template>
 
 <script>
-import {init} from "./2.js";
+import { init } from "./init.js";
 
 export default {
   name: 'App',
   components: {
   },
-  data(){
+  data() {
     return {
-      width:1080,
-      height:680,
+      width: 1080,
+      height: 680,
     }
   },
-  computed:{
-    widthpx(){return this.width+"px"},
-    heightpx(){return this.height+"px"},
+  computed: {
+    widthpx() { return this.width + "px" },
+    heightpx() { return this.height + "px" },
   },
   mounted() {
     let el = document.getElementById("video")
-    init(el,this.width,this.height)
+    init(el, this.width, this.height)
   },
 }
 </script>
@@ -48,6 +48,7 @@ export default {
   border: 0;
   margin: 0;
 }
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -57,6 +58,6 @@ export default {
 }
 
 .lil-gui {
-	z-index: 2 !important;
+  z-index: 2 !important;
 }
 </style>

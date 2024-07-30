@@ -17,7 +17,7 @@ module.exports = defineConfig({
   },
 
   devServer: {
-    https: true,
+    server: "https",
     static: {
       directory: path.join(__dirname, 'static')
     },
